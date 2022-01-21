@@ -33,6 +33,7 @@ $(document).ready(function () {
     }
 
     window.addEventListener("scroll", function () {
+        console.log('hello')
         if (document.location.pathname === '/bio.html') {
             document.querySelector('.story__bigstar')
                 .style.transform = "rotate(" + window.pageYOffset / 5 + "deg)";
