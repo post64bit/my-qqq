@@ -2235,7 +2235,7 @@ section {
         }
 
         &__subtitle2 {
-            padding-top: 890px;
+            padding-top: 843px;
         }
 
         &__oval2 {
@@ -2627,7 +2627,7 @@ section {
             bottom: 54px;
         }
         &__bigstar {
-            bottom: 442px;
+            bottom: 517px;
             right: 49px;
         }
         &__block-inner-1 {
@@ -2702,8 +2702,9 @@ section {
 
         &__block-middle {
             grid-template-columns: 1fr 1fr;
-            height: 1437px;
             border: none;
+            margin-top: 45px;
+            height: 919px;
         }
         &__oval2-wrapper {
             left: -12px;
@@ -2728,7 +2729,7 @@ section {
 
         &__block-inner-mobile {
             width: 100%;
-            height: 100%;
+            height: 131px;
             border: 1px solid #D8D8D8;
         }
 
@@ -3093,7 +3094,7 @@ section {
         &__lilstar {
             width: 54px;
             left: 28px;
-            bottom: 28px;
+            bottom: 117px;
         }
         &__line-bottom {
             right: 52px;
@@ -3499,7 +3500,7 @@ section {
         }
 
         &__quotes-wrapper {
-            right: -823px;
+            right: -599px;
         }
     }
     .media {
@@ -3508,14 +3509,20 @@ section {
         &__lil-block-1 {
             left: 71px;
         }
+        &__lil-block-3 {
+            top: 1250px;
+        }
 
         &__three-block-facebook {
             left: 868px;
-            top: 1479px;
+            top: 1403px;
+        }
+        &__subtitle {
+            margin-top: 920px;
         }
 
         &__oval2 {
-            margin-top: 574px;
+            margin-top: 774px;
         }
 
         &__three-block-inst {
@@ -3528,16 +3535,18 @@ section {
 
         &__three-block-tiktok {
             left: 15px;
-            top: 507px;
+            top: 648px;
         }
 
         &__three-block-youtube {
             left: 183px;
             top: -191px;
+            margin-top: 70px;
         }
 
         &__three-block-twitter {
-            right: 7px;
+            right: 20px;
+            top: 1217px;
         }
 
         &__bigstar {
@@ -3707,12 +3716,24 @@ section {
 
 @media (max-width: 414px) and (max-height: 736px) {
     .media {
-        height: 2242px;
+        height: 2142px;
         &__three-block-youtube {
-            top: -373px;
+            top: -273px;
         }
         &__line-bottom {
             right: 44px;
+        }
+        &__bigstar {
+            top: 1653px;
+        }
+        &__subtitle {
+            margin-top: 820px;
+        }
+        &__lilstar {
+            top: 1988px;
+        }
+        &__three-block-facebook {
+            left: 798px;
         }
     }
 }
