@@ -1413,6 +1413,10 @@ section {
 }
 
 @media (max-width: 1500px) {
+    .cursor {
+        width: 250px;
+        height: 250px;
+    }
     .header {
         &__first-name {
             width: 300px;
@@ -2066,6 +2070,10 @@ section {
 }
 
 @media (max-width: 1000px) {
+    .cursor {
+        width: 150px;
+        height: 150px;
+    }
     .whatsapp {
         bottom: 42px;
         right: 55px;
@@ -2509,6 +2517,9 @@ section {
 }
 
 @media (max-width: 800px) {
+    .cursor {
+        display: none;
+    }
     .burger {
         top: 24px;
         right: 43px;
