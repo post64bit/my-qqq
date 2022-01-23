@@ -8,6 +8,12 @@ $(document).ready(function () {
         }
     })
 
+    $(window).on('scroll', function() {
+        $('.header__img').css({
+            opacity: 1 - $(window).scrollTop() * 0.0035
+        })
+    });
+
     let mouseCursor = document.querySelector('.cursor')
     window.addEventListener('mousemove', cursor)
     function cursor(e) {
