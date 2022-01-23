@@ -518,13 +518,14 @@ section {
     }
 
     &__last-name {
-        position: relative;
-        z-index: -1;
         width: 1209px;
-        margin-bottom: 36px;
-        -webkit-box-shadow: 700px 0px 0px 800px rgba(255, 255, 255, 0.65);
-        -moz-box-shadow: 700px 0px 0px 800px rgba(255, 255, 255, 0.65);
+        height: 263px;
         box-shadow: 700px 0px 0px 800px rgba(255, 255, 255, 0.65);
+        margin-bottom: 36px;
+        background: url("../img/svg/alghafri.png");
+        background-size: 100.05%;
+        background-repeat: no-repeat;
+        z-index: -1;
     }
 
     &__social {
@@ -1208,6 +1209,7 @@ section {
 
         &__last-name {
             width: 1000px;
+            height: 218px;
         }
 
         &__arabic {
@@ -1420,6 +1422,7 @@ section {
 
         &__last-name {
             width: 800px;
+            height: 174px;
         }
     }
     .menu {
@@ -1502,6 +1505,7 @@ section {
 
         &__last-name {
             width: 600px;
+            height: 131px;
         }
 
         &__arabic {
@@ -2104,6 +2108,7 @@ section {
 
         &__last-name {
             width: 450px;
+            height: 98px;
             margin-bottom: 15px;
         }
 
@@ -2574,8 +2579,7 @@ section {
         &__last-name {
             margin-bottom: 0;
             width: 286px;
-            -webkit-box-shadow: 100px 0px 0px 800px rgba(255, 255, 255, 0.65);
-            -moz-box-shadow: 100px 0px 0px 800px rgba(255, 255, 255, 0.65);
+            height: 62px;
             box-shadow: 100px 0px 0px 800px rgba(255, 255, 255, 0.65);
         }
 
