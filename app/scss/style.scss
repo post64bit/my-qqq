@@ -920,6 +920,7 @@ section {
         border: 1px solid #CCCCCC;
         position: relative;
         margin: -1261px auto auto 1129px;
+        background-color: #F3F2F0;
     }
 
     &__figure-facebook {
@@ -1036,6 +1037,8 @@ section {
         position: absolute;
         top: 1600px;
         left: 400px;
+        background-color: #F3F2F0;
+        z-index: -1;
     }
 
     &__lil-block-3 {
@@ -1592,8 +1595,8 @@ section {
         }
 
         &__circle-wrapper {
-            left: 130px;
-            top: 638px;
+            left: 51px;
+            top: 475px;
         }
 
         &__oval {
@@ -2389,7 +2392,7 @@ section {
 
         &__figure-twitter {
             width: 250px;
-            margin-top: 300px;
+            margin-top: 282px;
         }
 
         &__figure-tiktok {
@@ -2738,11 +2741,12 @@ section {
     }
     .bio {
         &__texture {
-            display: none;
+            top: 134px;
+            right: -127px;
         }
 
         &__text {
-            margin-top: 700px;
+            margin-top: 664px;
             margin-left: 58px;
             margin-bottom: 100px;
         }
@@ -2777,6 +2781,11 @@ section {
             display: none;
             margin-top: 0;
         }
+        &__three-block {
+            border: none;
+            box-shadow: 0px 0px 0px 1px rgba(204, 204, 204, 1);
+            margin-right: 1px;
+        }
         &__three-blocks-mobile {
             display: flex;
             flex-direction: column;
@@ -2801,7 +2810,7 @@ section {
             }
         }
         &__block-last {
-            margin: 50px auto auto auto;
+            margin: 0 auto auto auto;
         }
         &__three-block2 {
             margin-top: 15px;
@@ -2830,13 +2839,15 @@ section {
             display: none;
         }
 
-
         &__three-block-snapchat {
             margin-top: 100px;
         }
 
         &__three-block-youtube {
-            margin-top: -450px;
+            margin-top: -528px;
+        }
+        &__three-block-last {
+            margin-top: -434px;
         }
 
         &__lil-block-1 {
@@ -3071,7 +3082,7 @@ section {
         }
 
         &__oval3-wrapper {
-            top: 1701px;
+            top: 1441px;
         }
 
         &__oval2 {
@@ -3109,7 +3120,7 @@ section {
             }
         }
         &__three-block2 {
-            margin-top: -60px;
+            margin-top: -150px;
         }
 
         &__text {
@@ -3117,11 +3128,11 @@ section {
         }
 
         &__subtitle {
-            margin-top: 147px;
+            margin-top: 238px;
         }
 
         &__diagonal-line-2 {
-            bottom: -1932px;
+            display: none;
         }
 
         &__three-block {
@@ -3153,7 +3164,7 @@ section {
         &__figure-twitter {
             width: 196.29px;
             height: 123.29px;
-            margin-top: 206px;
+            margin-top: 186px;
         }
 
         &__figure-facebook {
@@ -3219,14 +3230,15 @@ section {
         &__lil-block-2 {
             width: 49px;
             height: 112px;
-            top: 1345px;
+            top: 1237px;
             left: 74px;
+            z-index: 0;
         }
 
         &__lil-block-3 {
             width: 49px;
             height: 112px;
-            top: 1615px;
+            top: 1469px;
             right: 110px;
         }
 
@@ -3238,7 +3250,7 @@ section {
         &__bigstar {
             width: 64px;
             height: 64px;
-            top: 1756px;
+            top: 1611px;
             right: 49px;
         }
 
@@ -3250,8 +3262,7 @@ section {
         }
 
         &__line-bottom {
-            top: 3737px;
-            right: 45px;
+            display: none;
         }
     }
     .arrow {
@@ -3284,13 +3295,14 @@ section {
 
         &__left {
             margin: auto;
-            width: 200px;
+            width: 145px;
             display: flex;
             flex-direction: column-reverse;
         }
 
         &__go-to-top {
             margin-bottom: 66px;
+            margin-left: -20px;
         }
 
         &__social {
@@ -3355,20 +3367,8 @@ section {
     .media {
         height: 2221px;
 
-        &__lil-block-2 {
-            top: 1045px;
-        }
-
-        &__lil-block-3 {
-            top: 1663px;
-        }
-
         &__oval2 {
             margin-top: 828px;
-        }
-
-        &__bigstar {
-            top: 1729px;
         }
 
         &__lilstar {
@@ -3417,10 +3417,6 @@ section {
         }
         &__oval2 {
             margin-top: 774px;
-        }
-
-        &__bigstar {
-            top: 1713px;
         }
 
         &__lilstar {
