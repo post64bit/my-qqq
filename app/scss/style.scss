@@ -1169,6 +1169,10 @@ section {
     }
 }
 
+.s4-img {
+    width: 350px;
+}
+
 @media (max-width: 1840px) {
     .media {
         &__lil-block-3 {
@@ -1871,7 +1875,11 @@ section {
             font-size: 19px;
         }
     }
+    .s4-img {
+        width: 278px;
+    }
 }
+
 
 @media (max-width: 1300px) {
     .business {
@@ -2069,6 +2077,9 @@ section {
         &__social-item {
             margin-bottom: 15px;
         }
+    }
+    .s4-img {
+        width: 200px;
     }
 }
 
@@ -3317,6 +3328,9 @@ section {
             margin: auto auto 83px auto;
         }
     }
+    .s4-img {
+        width: 170px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -3427,6 +3441,9 @@ section {
         &__go-to-top {
             width: 200px;
         }
+    }
+    .s4-img {
+        width: 130px;
     }
 }
 
