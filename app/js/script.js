@@ -28,7 +28,7 @@ $(document).ready(function () {
         if(window.pageYOffset > 200) {
             smallHeader.classList.add('active')
             burger.classList.add('new-position')
-            if( document.location.pathname === '/qqq/app/bio.html' || document.location.pathname === '/qqq/app/address.html') {
+            if( document.location.pathname.includes('bio') || document.location.pathname.includes('address')) {
                 burger.classList.add('bio-burger-black')
             }
         } else {
@@ -39,7 +39,7 @@ $(document).ready(function () {
     }
 
     window.addEventListener("scroll", function () {
-        if (document.location.pathname === '/qqq/app/bio.html') {
+        if (document.location.pathname.includes('bio')) {
             document.querySelector('.story__bigstar')
                 .style.transform = "rotate(" + window.pageYOffset / 5 + "deg)";
             document.querySelector('.entrep__lilstar')
@@ -48,7 +48,7 @@ $(document).ready(function () {
                 .style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
             document.querySelector('.prefooter__star-2')
                 .style.transform = "rotate(" + -window.pageYOffset / 5 + "deg)";
-        } else if (document.location.pathname === '/qqq/app/') {
+        } else if (!document.location.pathname.includes('bio') && !document.location.pathname.includes('address')) {
             document.querySelector('.business__lilstar')
                 .style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
             document.querySelector('.business__bigstar')

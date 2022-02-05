@@ -98,6 +98,238 @@ section {
     margin-bottom: 100px;
 }
 
+//animation for social media in header 1111111
+
+.swirl-in-bck {
+    -webkit-animation: swirl-in-bck 0.75s ease-out 0.2s both;
+    animation: swirl-in-bck 0.75s ease-out 0.2s both;
+}
+
+@-webkit-keyframes swirl-in-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(8);
+        transform: rotate(540deg) scale(8);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes swirl-in-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(8);
+        transform: rotate(540deg) scale(8);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
+
+//animation for social media in header 22222222
+
+.swirl-in-top-bck {
+    -webkit-animation: swirl-in-top-bck 1s ease-out 0.3s both;
+    animation: swirl-in-top-bck 1s ease-out 0.3s both;
+}
+@-webkit-keyframes swirl-in-top-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(10);
+        transform: rotate(540deg) scale(10);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        opacity: 1;
+    }
+}
+@keyframes swirl-in-top-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(10);
+        transform: rotate(540deg) scale(10);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 50% 0;
+        transform-origin: 50% 0;
+        opacity: 1;
+    }
+}
+
+//animation for social media in header 33333333
+
+.swirl-in-right-bck {
+    -webkit-animation: swirl-in-right-bck 0.85s ease-out 0.5s both;
+    animation: swirl-in-right-bck 0.85s ease-out 0.5s both;
+}
+
+@-webkit-keyframes swirl-in-right-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(12);
+        transform: rotate(540deg) scale(12);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        opacity: 1;
+    }
+}
+@keyframes swirl-in-right-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(12);
+        transform: rotate(540deg) scale(12);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        opacity: 1;
+    }
+}
+
+//animation for social media in header 444444444
+
+.swirl-in-left-bck {
+    -webkit-animation: swirl-in-left-bck 1s ease-out 0.4s both;
+    animation: swirl-in-left-bck 1s ease-out 0.4s both;
+}
+@-webkit-keyframes swirl-in-left-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(10);
+        transform: rotate(540deg) scale(10);
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        opacity: 1;
+    }
+}
+@keyframes swirl-in-left-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(10);
+        transform: rotate(540deg) scale(10);
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        opacity: 1;
+    }
+}
+
+//animation for social media in header 5555555
+
+.swirl-in-bl-bck {
+    -webkit-animation: swirl-in-bl-bck 0.65s ease-out 0.8s both;
+    animation: swirl-in-bl-bck 0.65s ease-out 0.8s both;
+}
+@-webkit-keyframes swirl-in-bl-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(8);
+        transform: rotate(540deg) scale(8);
+        -webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+        opacity: 1;
+    }
+}
+@keyframes swirl-in-bl-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(8);
+        transform: rotate(540deg) scale(8);
+        -webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+        opacity: 1;
+    }
+}
+
+//animation for social media in header 6666666
+
+.swirl-in-bottom-bck {
+    -webkit-animation: swirl-in-bottom-bck 0.65s ease-out 0.9s both;
+    animation: swirl-in-bottom-bck 0.65s ease-out 0.9s both;
+}
+
+@-webkit-keyframes swirl-in-bottom-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(12);
+        transform: rotate(540deg) scale(12);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
+@keyframes swirl-in-bottom-bck {
+    0% {
+        -webkit-transform: rotate(540deg) scale(12);
+        transform: rotate(540deg) scale(12);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1);
+        transform: rotate(0) scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
+
+
+
+
 .horizontal-line {
     width: 100%;
     height: 1px;
