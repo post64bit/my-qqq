@@ -103,18 +103,18 @@ section {
 //animation for social media in header 1111111
 
 .slide-in-top {
-    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.slide-in-top-2 {
     -webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-top-2 {
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @-webkit-keyframes slide-in-top {
     0% {
         -webkit-transform: translateY(-1000px);
-        transform: translateY(-1000px) rotate(-200deg) scale(10);
+        transform: translateY(-1000px) rotate(-300deg) scale(10);
         opacity: 0;
     }
     100% {
@@ -126,7 +126,7 @@ section {
 @keyframes slide-in-top {
     0% {
         -webkit-transform: translateY(-1000px);
-        transform: translateY(-1000px) rotate(-200deg) scale(10);
+        transform: translateY(-1000px) rotate(-300deg) scale(10);
         opacity: 0;
     }
     100% {
@@ -138,7 +138,7 @@ section {
 @-webkit-keyframes slide-in-top-2 {
     0% {
         -webkit-transform: translateY(-1000px);
-        transform: translateY(-1000px) rotate(150deg) scale(15);
+        transform: translateY(-1000px) rotate(250deg) scale(15);
         opacity: 0;
     }
     100% {
@@ -150,7 +150,7 @@ section {
 @keyframes slide-in-top-2 {
     0% {
         -webkit-transform: translateY(-1000px);
-        transform: translateY(-1000px) rotate(150deg) scale(15);
+        transform: translateY(-1000px) rotate(250deg) scale(15);
         opacity: 0;
     }
     100% {
@@ -174,7 +174,7 @@ section {
 @-webkit-keyframes slide-in-tr {
     0% {
         -webkit-transform: translateY(-1000px) translateX(1000px);
-        transform: translateY(-1000px) translateX(1000px) scale(10) rotate(200deg);
+        transform: translateY(-1000px) translateX(1000px) scale(10) rotate(300deg);
         opacity: 0;
     }
     100% {
@@ -186,7 +186,7 @@ section {
 @keyframes slide-in-tr {
     0% {
         -webkit-transform: translateY(-1000px) translateX(1000px);
-        transform: translateY(-1000px) translateX(1000px) scale(10) rotate(200deg);
+        transform: translateY(-1000px) translateX(1000px) scale(10) rotate(300deg);
         opacity: 0;
     }
     100% {
@@ -222,17 +222,17 @@ section {
 
 //animation for social media in header 333333
 .slide-in-tl {
-    -webkit-animation: slide-in-tl 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-tl 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.slide-in-tl-2 {
     -webkit-animation: slide-in-tl 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-tl 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+.slide-in-tl-2 {
+    -webkit-animation: slide-in-tl 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-tl 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 @-webkit-keyframes slide-in-tl {
     0% {
         -webkit-transform: translateY(-1000px) translateX(-1000px);
-        transform: translateY(-1000px) translateX(-1000px) scale(10) rotate(200deg);
+        transform: translateY(-1000px) translateX(-1000px) scale(10) rotate(300deg);
         opacity: 0;
     }
     100% {
@@ -244,7 +244,7 @@ section {
 @keyframes slide-in-tl {
     0% {
         -webkit-transform: translateY(-1000px) translateX(-1000px);
-        transform: translateY(-1000px) translateX(-1000px) scale(10) rotate(200deg);
+        transform: translateY(-1000px) translateX(-1000px) scale(10) rotate(300deg);
         opacity: 0;
     }
     100% {
@@ -256,7 +256,7 @@ section {
 @-webkit-keyframes slide-in-tl {
     0% {
         -webkit-transform: translateY(-1000px) translateX(-1000px);
-        transform: translateY(-1000px) translateX(-1000px) scale(13) rotate(-200deg);
+        transform: translateY(-1000px) translateX(-1000px) scale(13) rotate(-220deg);
         opacity: 0;
     }
     100% {
@@ -268,7 +268,7 @@ section {
 @keyframes slide-in-tl {
     0% {
         -webkit-transform: translateY(-1000px) translateX(-1000px);
-        transform: translateY(-1000px) translateX(-1000px) scale(13) rotate(-200deg);
+        transform: translateY(-1000px) translateX(-1000px) scale(13) rotate(-220deg);
         opacity: 0;
     }
     100% {
