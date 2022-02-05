@@ -98,236 +98,185 @@ section {
     margin-bottom: 100px;
 }
 
+
+
 //animation for social media in header 1111111
 
-.swirl-in-bck {
-    -webkit-animation: swirl-in-bck 0.75s ease-out 0.2s both;
-    animation: swirl-in-bck 0.75s ease-out 0.2s both;
+.slide-in-top {
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-top-2 {
+    -webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@-webkit-keyframes swirl-in-bck {
+@-webkit-keyframes slide-in-top {
     0% {
-        -webkit-transform: rotate(540deg) scale(8);
-        transform: rotate(540deg) scale(8);
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px) rotate(-200deg) scale(10);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
+        -webkit-transform: translateY(0);
+        transform: translateY(0) rotate(0deg) scale(1);
         opacity: 1;
     }
 }
-@keyframes swirl-in-bck {
+@keyframes slide-in-top {
     0% {
-        -webkit-transform: rotate(540deg) scale(8);
-        transform: rotate(540deg) scale(8);
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px) rotate(-200deg) scale(10);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
+        -webkit-transform: translateY(0);
+        transform: translateY(0) rotate(0deg) scale(1);
         opacity: 1;
     }
 }
-
-//animation for social media in header 22222222
-
-.swirl-in-top-bck {
-    -webkit-animation: swirl-in-top-bck 1s ease-out 0.3s both;
-    animation: swirl-in-top-bck 1s ease-out 0.3s both;
-}
-@-webkit-keyframes swirl-in-top-bck {
+@-webkit-keyframes slide-in-top-2 {
     0% {
-        -webkit-transform: rotate(540deg) scale(10);
-        transform: rotate(540deg) scale(10);
-        -webkit-transform-origin: 50% 0;
-        transform-origin: 50% 0;
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px) rotate(150deg) scale(15);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 50% 0;
-        transform-origin: 50% 0;
+        -webkit-transform: translateY(0);
+        transform: translateY(0) rotate(0deg) scale(1);
         opacity: 1;
     }
 }
-@keyframes swirl-in-top-bck {
+@keyframes slide-in-top-2 {
     0% {
-        -webkit-transform: rotate(540deg) scale(10);
-        transform: rotate(540deg) scale(10);
-        -webkit-transform-origin: 50% 0;
-        transform-origin: 50% 0;
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px) rotate(150deg) scale(15);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 50% 0;
-        transform-origin: 50% 0;
+        -webkit-transform: translateY(0);
+        transform: translateY(0) rotate(0deg) scale(1);
         opacity: 1;
     }
 }
 
-//animation for social media in header 33333333
+//animation for social media in header 222222
 
-.swirl-in-right-bck {
-    -webkit-animation: swirl-in-right-bck 0.85s ease-out 0.5s both;
-    animation: swirl-in-right-bck 0.85s ease-out 0.5s both;
+.slide-in-tr {
+    -webkit-animation: slide-in-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-in-tr-2 {
+    -webkit-animation: slide-in-tr 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-tr 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@-webkit-keyframes swirl-in-right-bck {
+@-webkit-keyframes slide-in-tr {
     0% {
-        -webkit-transform: rotate(540deg) scale(12);
-        transform: rotate(540deg) scale(12);
-        -webkit-transform-origin: 100% 50%;
-        transform-origin: 100% 50%;
+        -webkit-transform: translateY(-1000px) translateX(1000px);
+        transform: translateY(-1000px) translateX(1000px) scale(10) rotate(200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 100% 50%;
-        transform-origin: 100% 50%;
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0) scale(1) rotate(0deg);
         opacity: 1;
     }
 }
-@keyframes swirl-in-right-bck {
+@keyframes slide-in-tr {
     0% {
-        -webkit-transform: rotate(540deg) scale(12);
-        transform: rotate(540deg) scale(12);
-        -webkit-transform-origin: 100% 50%;
-        transform-origin: 100% 50%;
+        -webkit-transform: translateY(-1000px) translateX(1000px);
+        transform: translateY(-1000px) translateX(1000px) scale(10) rotate(200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 100% 50%;
-        transform-origin: 100% 50%;
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0) scale(1) rotate(0deg);
         opacity: 1;
     }
 }
-
-//animation for social media in header 444444444
-
-.swirl-in-left-bck {
-    -webkit-animation: swirl-in-left-bck 1s ease-out 0.4s both;
-    animation: swirl-in-left-bck 1s ease-out 0.4s both;
-}
-@-webkit-keyframes swirl-in-left-bck {
+@-webkit-keyframes slide-in-tr-2 {
     0% {
-        -webkit-transform: rotate(540deg) scale(10);
-        transform: rotate(540deg) scale(10);
-        -webkit-transform-origin: 0 50%;
-        transform-origin: 0 50%;
+        -webkit-transform: translateY(-1000px) translateX(1000px);
+        transform: translateY(-1000px) translateX(1000px) scale(8) rotate(-200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 0 50%;
-        transform-origin: 0 50%;
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0) scale(1) rotate(0deg);
         opacity: 1;
     }
 }
-@keyframes swirl-in-left-bck {
+@keyframes slide-in-tr-2 {
     0% {
-        -webkit-transform: rotate(540deg) scale(10);
-        transform: rotate(540deg) scale(10);
-        -webkit-transform-origin: 0 50%;
-        transform-origin: 0 50%;
+        -webkit-transform: translateY(-1000px) translateX(1000px);
+        transform: translateY(-1000px) translateX(1000px) scale(8) rotate(-200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 0 50%;
-        transform-origin: 0 50%;
+        -webkit-transform: translateY(0) translateX(0);
+        transform: translateY(0) translateX(0) scale(1) rotate(0deg);
         opacity: 1;
     }
 }
 
-//animation for social media in header 5555555
-
-.swirl-in-bl-bck {
-    -webkit-animation: swirl-in-bl-bck 0.65s ease-out 0.8s both;
-    animation: swirl-in-bl-bck 0.65s ease-out 0.8s both;
+//animation for social media in header 333333
+.slide-in-tl {
+    -webkit-animation: slide-in-tl 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-tl 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-@-webkit-keyframes swirl-in-bl-bck {
+.slide-in-tl-2 {
+    -webkit-animation: slide-in-tl 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-tl 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes slide-in-tl {
     0% {
-        -webkit-transform: rotate(540deg) scale(8);
-        transform: rotate(540deg) scale(8);
-        -webkit-transform-origin: 0 100%;
-        transform-origin: 0 100%;
+        -webkit-transform: translateY(-1000px) translateX(-1000px);
+        transform: translateY(-1000px) translateX(-1000px) scale(10) rotate(200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 0 100%;
-        transform-origin: 0 100%;
+        -webkit-transform: translateY(0) translateX(0) scale(1) rotate(0deg);
+        transform: translateY(0) translateX(0);
         opacity: 1;
     }
 }
-@keyframes swirl-in-bl-bck {
+@keyframes slide-in-tl {
     0% {
-        -webkit-transform: rotate(540deg) scale(8);
-        transform: rotate(540deg) scale(8);
-        -webkit-transform-origin: 0 100%;
-        transform-origin: 0 100%;
+        -webkit-transform: translateY(-1000px) translateX(-1000px);
+        transform: translateY(-1000px) translateX(-1000px) scale(10) rotate(200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 0 100%;
-        transform-origin: 0 100%;
+        -webkit-transform: translateY(0) translateX(0) scale(1) rotate(0deg);
+        transform: translateY(0) translateX(0);
         opacity: 1;
     }
 }
-
-//animation for social media in header 6666666
-
-.swirl-in-bottom-bck {
-    -webkit-animation: swirl-in-bottom-bck 0.65s ease-out 0.9s both;
-    animation: swirl-in-bottom-bck 0.65s ease-out 0.9s both;
-}
-
-@-webkit-keyframes swirl-in-bottom-bck {
+@-webkit-keyframes slide-in-tl {
     0% {
-        -webkit-transform: rotate(540deg) scale(12);
-        transform: rotate(540deg) scale(12);
-        -webkit-transform-origin: 50% 100%;
-        transform-origin: 50% 100%;
+        -webkit-transform: translateY(-1000px) translateX(-1000px);
+        transform: translateY(-1000px) translateX(-1000px) scale(13) rotate(-200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 50% 100%;
-        transform-origin: 50% 100%;
+        -webkit-transform: translateY(0) translateX(0) scale(1) rotate(0deg);
+        transform: translateY(0) translateX(0);
         opacity: 1;
     }
 }
-@keyframes swirl-in-bottom-bck {
+@keyframes slide-in-tl {
     0% {
-        -webkit-transform: rotate(540deg) scale(12);
-        transform: rotate(540deg) scale(12);
-        -webkit-transform-origin: 50% 100%;
-        transform-origin: 50% 100%;
+        -webkit-transform: translateY(-1000px) translateX(-1000px);
+        transform: translateY(-1000px) translateX(-1000px) scale(13) rotate(-200deg);
         opacity: 0;
     }
     100% {
-        -webkit-transform: rotate(0) scale(1);
-        transform: rotate(0) scale(1);
-        -webkit-transform-origin: 50% 100%;
-        transform-origin: 50% 100%;
+        -webkit-transform: translateY(0) translateX(0) scale(1) rotate(0deg);
+        transform: translateY(0) translateX(0);
         opacity: 1;
     }
 }
-
-
 
 
 .horizontal-line {
