@@ -57,7 +57,9 @@
     <div class="swiper office">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="./img/office/door-to-office.webp" alt="image">
+                <video class="swiper-slide-video"  autoplay loop muted playsinline preload="yes">
+                    <source src="./img/videos/video2.m4v" type="video/mp4">
+                </video>
             </div>
             <div class="swiper-slide">
                 <img src="./img/office/in-office.webp" alt="image">
@@ -192,7 +194,12 @@
         </div>
         <div class="footer__right">
             <img class="footer__logo" src="./img/svg/footer-logo.svg" alt="logo">
-            <p class="footer__rights">© All rights reserved. DevSwat 2022</p>
+            <div class="footer__rights-and-devswat">
+                <p class="footer__rights">© All rights reserved, 2022</p>
+                <svg class="footer__devswat">
+                    <use xlink:href="sprite.svg#devswat"></use>
+                </svg>
+            </div>
         </div>
     </div>
 </footer>
